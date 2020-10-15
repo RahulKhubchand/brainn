@@ -1,0 +1,117 @@
+body
+
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	text-align: center;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 800px;
+	
+
+}
+
+
+#game
+
+{
+	
+	display: inline-block;
+	
+	position: relative;
+
+}
+
+
+#game .cup
+
+{
+	
+	border-left: 20px solid transparent;
+	
+	border-right: 20px solid transparent;
+	
+	border-bottom: 130px solid black;
+	
+	height: 180px;
+	
+	cursor: pointer;
+	
+	float: left;
+	
+	margin: 0 20px;
+	
+	position: relative;
+	
+	width: 70px;
+
+}
+
+
+#game .ball
+
+{
+
+	display: none;
+	
+	background: white;
+
+	border-radius: 50%;
+
+	height: 20px;
+
+	width: 20px;
+	
+	margin-left: 65px;
+
+	position: absolute;
+
+	bottom: 0;
+
+	left: 0;
+
+}
+
+
+#game-result
+
+{
+
+	display: none;
+
+	position: absolute;
+
+	top: 30%;
+
+	left: 0;
+
+	right: 0;
+
+	font-size: 32px;
+	font-color: red;
+
+	text-align: center;
+
+}
+
+
+#btn-play
+
+{
+
+	background: #CCC;
+
+	border: 0;
+
+	border-radius: 5px;
+
+	cursor: pointer;
+
+	display: block;
+
+	margin: 20px auto;
+
+	padding: 5px 15px;
+
+}
